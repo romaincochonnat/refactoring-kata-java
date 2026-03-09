@@ -28,7 +28,7 @@ public class ShoppingController {
         cal.setTime(date);
 
         // Compute discount for customer
-        if (b.getType().equals("STANDARD_CUSTOMER")) {
+        if (b.getType().equals("STANDARD_CUSTOMER_test")) {
             d = 1;
         } else if (b.getType().equals("PREMIUM_CUSTOMER")) {
             d = 0.9;
